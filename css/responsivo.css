@@ -1,0 +1,63 @@
+@media (max-width: 1100px) {
+
+    @font-face {
+        font-family: "helvetica";
+        src: url(font/HelveticaNowDisplay-Medium.ttf) format(opentype);
+      }
+      
+      :root {
+        --cor0: #878a8f;
+        --cor1: #0f141e;
+      }
+      
+      body {
+        background-color: whitesmoke;
+        margin: 0px;
+        padding: 0px;
+        font-family: "helvetica";
+      }
+
+      .conteudo-sobre p:nth-child(2) {
+        color: var(--cor1);
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .projetos {
+        height: 100vh;
+    }
+
+    .box1, .box2, .box3, .box4 {
+        width: 300px;
+        height: 320px;
+        background-size: auto;
+        box-shadow: 2px 2px 12px rgb(0 0 0 / 20%);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .header-box {
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .btn-box {
+        background-color: var(--cor1);
+        color: white;
+        border-radius: 10px;
+        margin: auto;
+        width: 50%;
+    }
+
+
+
+
+
+
+
+
+
+
+}
