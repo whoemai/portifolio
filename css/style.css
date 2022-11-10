@@ -220,20 +220,20 @@ button:active {
 }
 
 .box1 {
-  background-image: url(/image/img-bg01.jpg);
+  background-image: url(../image/img-bg01.jpg);
 }
 
 .box2 {
-  background-image: url(/image/img-bg02.jpg);
+  background-image: url(../image/img-bg02.jpg);
   background-position: center left;
 }
 
 .box3 {
-  background-image: url(/image/img-bg03.jpg);
+  background-image: url(../image/img-bg03.jpg);
 }
 
 .box4 {
-  background-image: url(/image/img-bg04.jpg);
+  background-image: url(../image/img-bg04.jpg);
 }
 
 .conteudo-box {
