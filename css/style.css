@@ -184,6 +184,7 @@ button:active {
   border-radius: 10px;
   margin: 10px;
   padding: 10px;
+  box-shadow: 2px 2px 12px rgb(0 0 0 / 20%);
 }
 
 .projetos-txt p:nth-child(1) {
@@ -194,9 +195,9 @@ button:active {
 }
 
 .projetos-txt p:nth-child(2) {
-  font-weight: bold;
+  font-weight: normal;
   color: var(--cor1);
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .projetos-txt {
