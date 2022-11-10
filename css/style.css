@@ -25,7 +25,7 @@ a {
 
 section {
   width: 100%;
-  height: 95vh; 
+  height: 70vh;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -120,16 +120,22 @@ button:active {
 /*estilo da imagem de fundo e do banner*/
 
 .conteudo-sobre {
-  width: 80%;
-  height: 330px;
-  background-color: white;
+  width: 60%;
+  height: 340px;
+  background-color: rgb(255, 255, 255);
   border-radius: 20px;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 12px rgb(0 0 0 / 20%);
   display: flex;
   margin: -7% auto 20px auto;
   position: relative;
-  justify-content: space-evenly;
   align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.btnlinkedin {
+  text-align: center;
 }
 
 .conteudo-sobre img {
@@ -164,4 +170,84 @@ button:active {
   color: whitesmoke;
   border: none;
   background-color: var(--cor0);
+}
+
+/*secao de projetos*/
+
+.projetos {
+  height: 600px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.projetos-txt p:nth-child(1) {
+  font-weight: bold;
+  color: var(--cor1);
+  font-size: 25px;
+  text-align: center;
+}
+
+.projetos-txt p:nth-child(2) {
+  font-weight: bold;
+  color: var(--cor1);
+  font-size: 18px;
+}
+
+.projetos-txt {
+  width: 500px;
+  margin: auto;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  width: 300px;
+  height: 320px;
+  background-color: white;
+  background-size: cover;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.conteudo-box {
+  display: flex;
+  margin: 0px 50px 0px 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box1 {
+  background-image: url(/image/bg-image.jpg);
+}
+
+.box2 {
+  background-image: url(/image/bg-image.jpg);
+}
+
+.box3 {
+  background-image: url(/image/bg-image.jpg);
+}
+
+.box4 {
+  background-image: url(/image/bg-image.jpg);
+}
+
+.box1 span,
+.box2 span,
+.box3 span,
+.box4 span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin: 10px;
 }
