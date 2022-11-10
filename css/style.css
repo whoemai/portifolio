@@ -25,8 +25,7 @@ a {
 
 section {
   width: 100%;
-  height: 95vh;
-  background-image: url(/image/bg-image.jpg);
+  height: 95vh; 
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -40,7 +39,7 @@ nav {
   align-items: center;
   height: 60px;
   background-color: white;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.200);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
   padding: 0px 5%;
 }
 
@@ -61,11 +60,10 @@ nav ul li > a {
   font-size: 30px;
 }
 
-.active {
-  font-weight: bold;
-  color: var(--cor1);
+.active:hover {
+  color: var(--cor0);
 }
-
+q
 /*estilo texto*/
 
 .conteudo-txt p:nth-child(1) {
@@ -75,10 +73,11 @@ nav ul li > a {
 }
 
 .conteudo-txt p:nth-child(2) {
+  margin: 0px;
   font-weight: bold;
   color: var(--cor1);
   letter-spacing: 1px;
-  font-size: 60px;
+  font-size: 75px;
 }
 
 .conteudo-txt p:nth-child(3) {
@@ -89,12 +88,8 @@ nav ul li > a {
 }
 
 .conteudo-txt {
-  line-height: 0px;
-  margin: 45px 0px 25px;
-}
-
-.conteudo-txt {
   position: absolute;
+  margin: auto;
   left: 13%;
   top: 42%;
   transform: translate(-13%, -32%);
@@ -110,37 +105,26 @@ nav ul li > a {
   margin: 0px 10px;
 }
 
-.btn1 {
-  border: 2px solid var(--cor1);
-  color: var(--cor1);
-}
-
-.btn2 {
- background-color: var(--cor0);
- border: none;
- color: var(--cor1);
+button:hover {
+  border: solid rgba(255, 255, 255, 0.6);
+  transform: translate(0px, -5px);
+  box-shadow: 0px 13px 37px -15px rgba(0, 0, 0, 0.75);
+  transition: transform 0.3s, border 0.4s;
 }
 
 button:active {
   transform: scale(1.1);
+  transition: transform 0.3s;
 }
 
 /*estilo da imagem de fundo e do banner*/
-
-.imgbg {
-  height: 510px;
-  position: absolute;
-  bottom: 120px;
-  left: 80%;
-  transform: translateX(-70%);
-}
 
 .conteudo-sobre {
   width: 80%;
   height: 330px;
   background-color: white;
   border-radius: 20px;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.200);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
   display: flex;
   margin: -7% auto 20px auto;
   position: relative;
@@ -149,37 +133,35 @@ button:active {
 }
 
 .conteudo-sobre img {
-  height: 250px;
+  height: 300px;
+  padding: 20px;
 }
 
 .txt-sobre {
+  padding: 10px;
   width: 550px;
 }
 
 .conteudo-sobre p:nth-child(1) {
   color: var(--cor1);
   font-weight: bolder;
-  font-size: 22px;
-  line-height: 1px;
+  font-size: 43px;
+  line-height: 10px;
 }
 
 .conteudo-sobre p:nth-child(2) {
   color: var(--cor1);
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.conteudo-sobre p:nth-child(3), .conteudo-sobre p:nth-child(4)  {
-  color: var(--cor1);
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 25px;
+  font-weight: normal;
 }
 
 .txt-sobre button {
-  width: 120px;
-  height: 40px;
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 25px;
+  border-radius: 10px;
   color: whitesmoke;
   border: none;
   background-color: var(--cor0);
-
 }
