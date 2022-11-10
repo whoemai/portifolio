@@ -1,9 +1,7 @@
 @font-face {
   font-family: "helvetica";
   src: url(font/HelveticaNowDisplay-Medium.ttf) format(opentype);
-}
-
-@media screen 
+} 
 
 :root {
   --cor0: #878a8f;
