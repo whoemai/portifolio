@@ -49,3 +49,12 @@ header .menu ul li a {
 header .menu ul li a:hover {
   color: #156fc3;
 }
+
+/* Main Home */
+
+#home .container {
+  width: 100%;
+  height: 100%;
+  background: url();
+  background-size: cover;
+}
