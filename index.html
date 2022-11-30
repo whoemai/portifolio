@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifolio Pedro Fernandes</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive-midle.css">
+    <link rel="stylesheet" href="css/responsive-mobile.css">
   </head>
   <body>
     <header>
@@ -17,8 +19,11 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#port">Portfólio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+      </div>
+      <div class="btn-mobile">
+        <ion-icon name="grid-outline"></ion-icon>
       </div>
     </header>
 
@@ -101,7 +106,35 @@
           </label>
         </div>
       </div>
+
+      <section id="contact">
+        <div class="container">
+          <div class="content-contact">
+            <div class="contact-left">
+              <h1>Contact With me</h1>
+              <div class="li"></div>
+              <ion-icon name="mail-outline"></ion-icon>
+              <span>pedro.fernandes.moura@gmail.com</span>
+              <ion-icon name="call-outline"></ion-icon>
+              <span>+55 1194070-8204</span>
+              <ion-icon name="location-outline"></ion-icon>
+              <span>Gusrulhos - SP</span>
+            </div>
+            <div class="contact-right">
+              <h1>Fill the form</h1>
+              <div class="linha"></div>
+              <input type="email" placeholder="E-mail">
+              <input type="text" placeholder="Name">
+              <textarea placeholder="Message"></textarea>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
+
+    <footer>
+      <span>Copyright 2022 <a href="">Front</a><a href="">All Rights Reserved</a></span>
+    </footer>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
