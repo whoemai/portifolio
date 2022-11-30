@@ -1,0 +1,30 @@
+@media screen and (max-width: 960px) {
+  body {
+    background: url(../image/CREATIVE_3.png);
+  }
+
+  header {
+    background: url(../image/CREATIVE_3.png);
+  }
+
+  header .logo {
+    width: 600px;
+  }
+  
+  header .menu {
+    display: none;
+  }
+
+  header .btn-mobile {
+    display: block;
+  }
+
+  header .btn-mobile ion-icon {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  header .menu-mobile {
+    
+  }
+}
