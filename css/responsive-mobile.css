@@ -25,6 +25,28 @@
   }
 
   header .menu-mobile {
-    
+    display: none;
+    width: 50%;
+    height: 20vh;
+    box-shadow: 0 0 15px 0 rgba(21, 111, 195, 0.5);
+    position: fixed;
+    top: 20px;
+    border-radius: 10px;
+    background: #156fc3;
+  }
+
+  header .menu-mobile ul {
+    text-align: center;
+  }
+  
+  header .menu-mobile ul li {
+    list-style: none;
+    padding: 12px 0;
+  }
+
+  header .menu-mobile ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
   }
 }

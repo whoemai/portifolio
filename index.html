@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifolio Pedro Fernandes</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive-midle.css">
-    <link rel="stylesheet" href="css/responsive-mobile.css">
+    <link rel="stylesheet" href="css/responsive-midle.css" />
+    <link rel="stylesheet" href="css/responsive-mobile.css" />
   </head>
   <body>
     <header>
@@ -22,8 +22,18 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
+      <div class="menu-mobile">
+        <menu id="itens">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#port">Portfólio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </menu>
+      </div>
       <div class="btn-mobile">
-        <ion-icon name="grid-outline"></ion-icon>
+        <ion-icon name="grid-outline" onclick="clickMenu()"></ion-icon>
       </div>
     </header>
 
@@ -43,19 +53,21 @@
       </div>
     </main>
 
-
     <section id="about">
       <div class="container">
         <div class="title">
           <h1>I'm a front end developer</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, beatae in nisi sapiente dolores debitis dolore praesentium fuga maxime blanditiis tenetur officiis expedita. Iusto impedit eveniet dolorem distinctio autem saepe?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, beatae
+            in nisi sapiente dolores debitis dolore praesentium fuga maxime
+            blanditiis tenetur officiis expedita. Iusto impedit eveniet dolorem
+            distinctio autem saepe?
           </p>
           <div class="box-title">
             <p>80%</p>
             <div class="b1"><div class="b2"></div></div>
             <span>HTML</span>
-            
+
             <p>50%</p>
             <div class="b1"><div class="b3"></div></div>
             <span>CSS</span>
@@ -74,33 +86,42 @@
 
     <section id="port">
       <div class="container">
-        <input type="radio" name="slider" id="item-1" checked>
-        <input type="radio" name="slider" id="item-2">
-        <input type="radio" name="slider" id="item-3">
+        <input type="radio" name="slider" id="item-1" checked />
+        <input type="radio" name="slider" id="item-2" />
+        <input type="radio" name="slider" id="item-3" />
         <div class="cards">
           <label class="card" for="item-1" id="song-1">
-            <img src="image/01.png" alt="">
+            <img src="image/01.png" alt="" />
             <h1>Web</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eaque illum quas impedit accusantium ratione velit voluptates fugiat, quam dolorum! Ex, autem officia? Mollitia atque blanditiis minus unde officia amet.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              eaque illum quas impedit accusantium ratione velit voluptates
+              fugiat, quam dolorum! Ex, autem officia? Mollitia atque blanditiis
+              minus unde officia amet.
             </p>
             <button>Hire me</button>
           </label>
 
           <label class="card" for="item-2" id="song-2">
-            <img src="image/02.png" alt="">
+            <img src="image/02.png" alt="" />
             <h1>Designer</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eaque illum quas impedit accusantium ratione velit voluptates fugiat, quam dolorum! Ex, autem officia? Mollitia atque blanditiis minus unde officia amet.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              eaque illum quas impedit accusantium ratione velit voluptates
+              fugiat, quam dolorum! Ex, autem officia? Mollitia atque blanditiis
+              minus unde officia amet.
             </p>
             <button>Hire me</button>
           </label>
 
           <label class="card" for="item-3" id="song-3">
-            <img src="image/03.png" alt="">
+            <img src="image/03.png" alt="" />
             <h1>Studio</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eaque illum quas impedit accusantium ratione velit voluptates fugiat, quam dolorum! Ex, autem officia? Mollitia atque blanditiis minus unde officia amet.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              eaque illum quas impedit accusantium ratione velit voluptates
+              fugiat, quam dolorum! Ex, autem officia? Mollitia atque blanditiis
+              minus unde officia amet.
             </p>
             <button>Hire me</button>
           </label>
@@ -123,8 +144,8 @@
             <div class="contact-right">
               <h1>Fill the form</h1>
               <div class="linha"></div>
-              <input type="email" placeholder="E-mail">
-              <input type="text" placeholder="Name">
+              <input type="email" placeholder="E-mail" />
+              <input type="text" placeholder="Name" />
               <textarea placeholder="Message"></textarea>
             </div>
           </div>
@@ -133,7 +154,10 @@
     </section>
 
     <footer>
-      <span>Copyright 2022 <a href="">Front</a><a href="">All Rights Reserved</a></span>
+      <span
+        >Copyright 2022 <a href="">Front</a
+        ><a href="">All Rights Reserved</a></span
+      >
     </footer>
     <script
       type="module"
@@ -143,5 +167,9 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    ></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
