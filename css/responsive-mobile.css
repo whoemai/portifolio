@@ -15,8 +15,8 @@
     left: 95px;
     height: 175px;
   }
-  /* icons */
 
+  /* icons */
   #home .container .icons {
     height: 75vh;
   }
@@ -36,6 +36,7 @@
     letter-spacing: 0px;
     margin: 5px;
   }
+
   /* about */
   #about .container .title {
     padding: 10px 60px;
@@ -43,6 +44,9 @@
   #about .container .title p {
     width: 100%;
     margin-top: 30px;
+  }
+  #about .container .box-title {
+    height: 38vh;
   }
 
   /* port */
@@ -55,7 +59,7 @@
   }
 
   #port .container .card {
-    width: 45vw;
+    width: 50vw;
     height: 50%;
   }
   #contact .content-contact .linha {
