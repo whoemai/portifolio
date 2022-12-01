@@ -48,7 +48,22 @@
   #about .container .box-title {
     height: 38vh;
   }
-
+  #about .container .box-title .b1 {
+    width: 100%;
+  }
+  #about .container .box-title .b2 {
+    width: 162px;
+  }
+  #about .container .box-title .b3 {
+    width: 116px;
+  }
+  #about .container .box-title .b4 {
+    width: 70px;
+  }
+  #about .container .box-title .b5 {
+    width: 35px;
+  }
+  
   /* port */
   #port .container .card h1 {
     font-size: 2.3rem;
