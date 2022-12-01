@@ -13,7 +13,14 @@
   }
   header .menu-mobile {
     left: 95px;
+    height: 175px;
   }
+  /* icons */
+
+  #home .container .icons {
+    height: 75vh;
+  }
+
   /* home */
   #home .container .title h1{
     letter-spacing: 5px;
@@ -37,8 +44,18 @@
     width: 100%;
     margin-top: 30px;
   }
+
+  /* port */
+  #port .container .card h1 {
+    font-size: 2.3rem;
+  }
+
+  #port .container .card p {
+    width: 145px;
+  }
+
   #port .container .card {
-    width: 40vw;
+    width: 45vw;
     height: 50%;
   }
   #contact .content-contact .linha {
