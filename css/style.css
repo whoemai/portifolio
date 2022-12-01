@@ -358,25 +358,3 @@ footer a {
 /*===== Resposive =====*/
 
 
-@media screen and (max-width: 750px) {
-  header {
-    padding: 10px;
-  }
-  #home .container .title h2 {
-    letter-spacing: 30px;
-  }
-  #home .container .title h3 {
-    letter-spacing: 10px;
-  }
-  #about .container .title {
-    padding: 10px 60px;
-  }
-  #about .container .title p {
-    width: 100%;
-    margin-top: 30px;
-  }
-  #port .container .card {
-    width: 60%;
-    height: 60%;
-  }
-}
