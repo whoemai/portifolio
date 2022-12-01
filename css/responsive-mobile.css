@@ -46,7 +46,7 @@
     margin-top: 30px;
   }
   #about .container .box-title {
-    height: 38vh;
+    height: 40vh;
   }
   #about .container .box-title .b1 {
     width: 100%;
@@ -67,6 +67,7 @@
   /* port */
   #port .container .card h1 {
     font-size: 2.3rem;
+    padding: 10px;
   }
 
   #port .container .card p {
@@ -75,7 +76,7 @@
 
   #port .container .card {
     width: 50vw;
-    height: 50%;
+    height: 55vh;
   }
   #contact .content-contact .linha {
     width: 70vw;
