@@ -1,0 +1,84 @@
+@media screen and (max-width: 750px) {
+  header {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  header .logo{
+    width: 30vw;
+  }
+
+  header .logo {
+    display: none;
+  }
+  header .menu-mobile {
+    left: 95px;
+    height: 175px;
+  }
+
+  /* icons */
+  #home .container .icons {
+    height: 75vh;
+  }
+
+  /* home */
+  #home .container .title h1{
+    letter-spacing: 5px;
+    font-size: 2.5rem;
+    margin: 10px;
+  }
+  #home .container .title h2 {
+    letter-spacing: 1px;
+    font-size: 1rem;
+    margin: 5px;
+  }
+  #home .container .title h3 {
+    letter-spacing: 0px;
+    margin: 5px;
+  }
+
+  /* about */
+  #about .container .title {
+    padding: 10px 60px;
+  }
+  #about .container .title p {
+    width: 100%;
+    margin-top: 30px;
+  }
+  #about .container .box-title {
+    height: 40vh;
+  }
+  #about .container .box-title .b1 {
+    width: 100%;
+  }
+  #about .container .box-title .b2 {
+    width: 162px;
+  }
+  #about .container .box-title .b3 {
+    width: 116px;
+  }
+  #about .container .box-title .b4 {
+    width: 70px;
+  }
+  #about .container .box-title .b5 {
+    width: 35px;
+  }
+  
+  /* port */
+  #port .container .card h1 {
+    font-size: 2.3rem;
+    padding: 10px;
+  }
+
+  #port .container .card p {
+    width: 145px;
+  }
+
+  #port .container .card {
+    width: 50vw;
+    height: 60vh;
+  }
+  #contact .content-contact .linha {
+    width: 70vw;
+  }
+}
