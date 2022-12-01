@@ -1,13 +1,35 @@
 @media screen and (max-width: 750px) {
   header {
     padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  header .logo{
+    width: 30vw;
+  }
+
+  header .logo {
+    display: none;
+  }
+  header .menu-mobile {
+    left: 95px;
+  }
+  /* home */
+  #home .container .title h1{
+    letter-spacing: 5px;
+    font-size: 2.5rem;
+    margin: 10px;
   }
   #home .container .title h2 {
-    letter-spacing: 30px;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    margin: 5px;
   }
   #home .container .title h3 {
-    letter-spacing: 10px;
+    letter-spacing: 0px;
+    margin: 5px;
   }
+  /* about */
   #about .container .title {
     padding: 10px 60px;
   }
@@ -16,7 +38,10 @@
     margin-top: 30px;
   }
   #port .container .card {
-    width: 60%;
-    height: 60%;
+    width: 40vw;
+    height: 50%;
+  }
+  #contact .content-contact .linha {
+    width: 70vw;
   }
 }
