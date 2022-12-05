@@ -8,7 +8,8 @@
 body {
   width: 100%;
   height: 100vh;
-  background: url(../image/background1.png);
+  background-color: #25dcc9;
+  background-image: linear-gradient(0deg, #25dcc9 0%, #0b303f 98%);
   background-size: cover;
 }
 header {
@@ -41,7 +42,7 @@ header .menu ul li a {
   transition: 0.5s ease;
 }
 header .menu ul li a:hover {
-  color: #156fc3;
+  color: #24aa9d;
 }
 header .menu-mobile {
   display: none;
@@ -73,14 +74,14 @@ header .btn-mobile {
   transition: 0.5s ease;
 }
 #home .container .icons ion-icon:hover {
-  color: #156fc3;
+  color: #24aa9d;
 }
 #home .container .title {
   width: 100%;
   height: 80vh;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   padding: 0 60px;
 }
@@ -89,13 +90,13 @@ header .btn-mobile {
   text-transform: uppercase;
   font-size: 8rem;
   letter-spacing: 5px;
+  margin-top: 30px;
 }
 #home .container .title h2 {
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: 40px;
+  letter-spacing: 20px;
   font-size: 3rem;
-  margin-left: 30px;
 }
 #home .container .title h3 {
   color: #fff;
@@ -103,14 +104,14 @@ header .btn-mobile {
   font-size: 1.2rem;
   letter-spacing: 20px;
   margin-top: 30px;
-  margin-left: 35px;
 }
 /*===== about =====*/
 
 #about .container {
   width: 100%;
   height: 100vh;
-  background: url(../image/background2.png);
+  background-color: #25dcc9;
+  background-image: linear-gradient(330deg, #25dcc9 0%, #25dcc9 98%);
   background-size: cover;
   display: flex;
   justify-content: space-between;
@@ -130,18 +131,19 @@ header .btn-mobile {
   text-transform: uppercase;
   font-size: 2rem;
   text-align: left;
+  margin-top: 70px;
 }
 #about .container .title p {
   color: #fff;
   width: 500px;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 #about .container .box-title {
   width: 420px;
-  height: 37vh;
+  height: 44vh;
   margin-top: 20px;
   padding: 0 10px;
-  box-shadow: 0 0 10px 0 rgba(21, 111, 195, 0.5);
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 57%);
   border-radius: 20px;
 }
 #about .container .box-title span {
@@ -157,25 +159,25 @@ header .btn-mobile {
 #about .container .box-title .b2 {
   width: 280px;
   height: 8px;
-  background: #156fc3;
+  background: #1cb3a6;
   border-radius: 5px;
 }
 #about .container .box-title .b3 {
   width: 200px;
   height: 8px;
-  background: #156fc3;
+  background: #1cb3a6;
   border-radius: 5px;
 }
 #about .container .box-title .b4 {
   width: 120px;
   height: 8px;
-  background: #156fc3;
+  background: #1cb3a6;
   border-radius: 5px;
 }
 #about .container .box-title .b5 {
   width: 60px;
   height: 8px;
-  background: #156fc3;
+  background: #1cb3a6;
   border-radius: 5px;
 }
 
@@ -183,7 +185,7 @@ header .btn-mobile {
 #port .container {
   width: 100%;
   height: 100vh;
-  background: url(../image/background3.png);
+  background-color: #25dcc9;
   background-size: contain;
   background-position: center top;
   display: flex;
@@ -204,11 +206,10 @@ header .btn-mobile {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  box-shadow: 0 0 10px 0 rgba(21, 111, 195, 0.5);
   transition: 0.4s ease;
   cursor: pointer;
 }
-#port .container .card img{
+#port .container .card img {
   background-size: cover;
   background-position: center center;
   display: block;
@@ -221,7 +222,7 @@ header .btn-mobile {
   position: absolute;
   z-index: 9;
   color: #fff;
-  font-size: 6rem;
+  font-size: 3.5rem;
   margin-top: 30px;
   padding: 15px;
 }
@@ -230,7 +231,7 @@ header .btn-mobile {
   z-index: 9;
   width: 400px;
   color: #fff;
-  margin-top: 370px;
+  margin-top: 240px;
   text-align: justify;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 5px;
@@ -239,12 +240,12 @@ header .btn-mobile {
 #port .container .card button {
   position: absolute;
   z-index: 9;
-  margin-top: 700px;
+  margin-top: 410px;
   padding: 10px 20px;
   border-radius: 20px;
   border: none;
   color: #fff;
-  background: rgba(25, 129, 226, 0.7);
+  background: rgba(37, 220, 202, 0.5);
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -283,7 +284,8 @@ header .btn-mobile {
 #contact .container {
   width: 100%;
   height: 100vh;
-  background: url(../image/background3.png);
+  background-color: #25dcc9;
+  background-image: linear-gradient(180deg, #25dcc9 0%, #0b303f 98%);
   background-size: cover;
   transition: background 0.4s ease-in;
 }
@@ -357,16 +359,14 @@ footer {
   width: 100%;
   height: 80px;
   color: #fff;
-  line-height: 80px;
+  line-height: 70px;
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
   position: relative;
-  top: -80px;
+  top: -15px;
 }
 footer a {
-  color: #156fc3;
+  color: #25dcc9;
 }
 
 /*===== Resposive =====*/
-
-

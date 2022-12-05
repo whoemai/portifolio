@@ -1,7 +1,4 @@
 @media screen and (max-width: 960px) {
-  body {
-    background: #12293D;
-  }
   header {
     background: none;
   }
@@ -19,14 +16,13 @@
     font-size: 1.5rem;
   }
   header .menu-mobile {
+    background-color: #24aa9d;
     display: none;
-    width: 50%;
-    height: 20vh;
-    box-shadow: 0 0 15px 0 rgba(21, 111, 195, 0.5);
+    width: 40%;
+    height: 24vh;
     position: fixed;
     top: 20px;
     border-radius: 10px;
-    background: #3578b3;
   }
   header .menu-mobile ul {
     text-align: center;
@@ -55,24 +51,23 @@
   #home .container .title h3 {
     font-size: 0.9rem;
   }
-  #about .container {
-    background: #12293D;
-  }
   #about .container .title {
     align-items: center;
   }
   #about .container .box-title {
     width: 100%;
-    height: 40vh;
+    height: 37vh;
   }
   #about .container .box-title .b1 {
     width: 100%;
   }
-  #port .container {
-    background: #12293D;
+  #port .container .card h1 {
+    font-size: 2.7rem;
+  }
+  #port .container .card p {
+    width: 220px;
   }
   #contact .container .content-contact {
-    background: #12293D;
     width: 100%;
     height: 100vh;
     align-items: center;
